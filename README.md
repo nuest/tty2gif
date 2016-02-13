@@ -45,6 +45,12 @@ through `brew install imagemagick --with-x11`.
 gif (since v0.2), you have to have ImageMagick>= 6.8.6-4. After that, just
 `make`
 
+## Debian ##
+
+```sh
+sudo apt install libmagick++-dev
+```
+
 # Demo #
 
 ![gif](http://i.imgur.com/kjoNrBT.gif)
