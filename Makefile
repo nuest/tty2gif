@@ -14,3 +14,6 @@ tty2gif: tty2gif.cpp
 
 clean:
 	rm -f ${TARGETS}
+
+install: tty2gif
+	cp tty2gif /usr/local/bin/tty2gif
